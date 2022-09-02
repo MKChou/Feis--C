@@ -2,7 +2,6 @@
 
 int main(){
     int a,b,c,t;
-
     printf("ABC>CBA\n");
     printf("Enter 3 number:");
     scanf("%d%d%d",&a,&b,&c);
@@ -11,7 +10,5 @@ int main(){
     a = c;
     c = b;
     b = t;
-
-
     printf("after:%d %d %d",a,b,c);
 }

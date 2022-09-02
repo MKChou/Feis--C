@@ -6,6 +6,7 @@ int main()
     printf("Please enter 2 number:");
     scanf("%d%d%d", &a, &b, &c);
     min = a;
+
     if (min > b)
     {
         min = b;
@@ -14,7 +15,7 @@ int main()
     {
         min = c;
     }
-
+    
     printf("Min:%d", min);
     return 0;
 }
