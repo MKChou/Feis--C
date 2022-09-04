@@ -9,12 +9,10 @@ int main(){
 
     if (guess>ans){
         printf("Too large!");
-    }
-    else{
+    } else{
         if(guess==ans){
         printf("Bingo!");
-        }
-        if(guess<ans){
+        } else{
             printf("Too small!");
         }
     }
