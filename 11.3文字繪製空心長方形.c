@@ -12,7 +12,6 @@ int main(){
     printf("\n");
 
     for( count=1; count<=enter-2; count++){
-
         printf("*");
         for( i=1; i<=enter-2; i++){
             printf(" ");
