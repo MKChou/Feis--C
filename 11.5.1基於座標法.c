@@ -8,7 +8,7 @@ int main(){
     printf("j= ");
     scanf("%d",&enter2);
 
-for( i=1; i<=enter; i++){
+    for( i=1; i<=enter; i++){
         for( j=1; j<=enter2; j++){
             printf("(%d,%d)",i,j);
         }
