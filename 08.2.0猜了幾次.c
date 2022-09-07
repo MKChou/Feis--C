@@ -22,4 +22,6 @@ int main(){
     }
 
     printf("Bingo!(%d)",count);
+
+    return 0;
 }

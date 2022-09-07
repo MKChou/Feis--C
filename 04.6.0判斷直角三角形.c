@@ -11,4 +11,5 @@ int main(){
         printf("rectangular triangle!");
     }
 
+    return 0;
 }

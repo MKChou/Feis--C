@@ -7,5 +7,6 @@ int main(){
     scanf("%c",&num);
     ans = num+32;
     printf("Ans:%c",ans);
+    
     return 0;
 }

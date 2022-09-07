@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
+
 int main(){
     int i,max;
     int ver[5] = {1,0,9,4,8};
@@ -12,5 +13,8 @@ int main(){
             max = ver[i];
         }
     }
+
     printf("Max of Ver:%d",max);
+
+    return 0;
 }

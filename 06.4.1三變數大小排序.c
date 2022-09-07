@@ -6,22 +6,23 @@ int main(){
     printf("Please Enter 3 number:");
     scanf("%d%d%d",&a,&b,&c);
 
-    if (b<a){
-        t=a;
-        a=b;
-        b=t;
-    }
-    if(c<a){
+    if((c>a)){
         t=a;
         a=c;
         c=t;
     }
-    if(c<b){
+    if(b>a){
         t=b;
-        b=c;
-        c=t;
+        b=a;
+        a=t;
     }
+    if(c>b){
+        t=c;
+        c=b;
+        b=t;
+     }
 
     printf("%d %d %d",a,b,c);
+
     return 0;
 }

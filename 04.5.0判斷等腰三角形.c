@@ -7,7 +7,8 @@ int main(){
     scanf("%d%d%d",&a,&b,&c);
     if (a==b || b==c|| a==c){
         printf("Isosceles triangle!");
-    return 0 ;
     }
+
+    return 0 ;
 
 }

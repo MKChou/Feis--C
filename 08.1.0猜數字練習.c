@@ -19,4 +19,6 @@ int main(){
     }
 
     printf("Bingo!");
+
+    return 0;
 }

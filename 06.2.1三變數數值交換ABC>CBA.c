@@ -11,4 +11,6 @@ int main(){
     c = b;
     b = t;
     printf("after:%d %d %d",a,b,c);
+
+    return 0;
 }

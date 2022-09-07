@@ -11,5 +11,6 @@ int main(){
     for (count = 1; count<=N; count=count+1){
         printf("number:%d\n",count);
     }
+    
     return 0;
 }

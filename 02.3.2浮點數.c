@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 float a = 3.1415;
 float b = 123.45;
 double c = 123.45;
@@ -13,4 +14,6 @@ int main(){
     printf("%f\n",c); //(O)
     printf("%d\n",b); //(X)
     printf("%d\n",c); //(X)
+
+    return 0;
 }

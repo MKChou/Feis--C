@@ -15,5 +15,6 @@ int main(){
     }
 
     printf("Max:%d",number);
+    
     return 0;
 }

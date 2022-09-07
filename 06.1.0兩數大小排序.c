@@ -13,4 +13,6 @@ int main(){
     }
     
     printf("after: %d %d",a,b);
+
+    return 0;
 }

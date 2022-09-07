@@ -6,4 +6,6 @@ int main(){
         printf("number:%d\n",a);
         a=a+1;
     }
+
+    return 0;
 }

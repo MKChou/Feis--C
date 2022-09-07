@@ -13,5 +13,7 @@ int main(){
     }
     if (ans<guess){
         printf("Too small!");
-        }
+    }
+
+    return 0;
 }

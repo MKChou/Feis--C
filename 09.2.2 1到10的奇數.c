@@ -6,5 +6,6 @@ int main(){
     for( count=1; count<=10; count = count+2){
         printf("number:%d\n",count);
     }
-return 0;
+
+    return 0;
 }

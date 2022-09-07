@@ -13,4 +13,6 @@ int main(){
         scanf("%d",&number);
     }
     printf("Total:%d",total);
+
+    return 0;
 }

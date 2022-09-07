@@ -10,4 +10,6 @@ int main(){
         printf("number:%d\n",count);
         count = count+1;
     }
+    
+    return 0;
 }

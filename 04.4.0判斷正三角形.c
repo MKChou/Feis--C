@@ -7,5 +7,6 @@ int main(){
     if (a==b && a==c){
         printf("Regular triangle");
     }
+    
     return 0;
 }

@@ -1,9 +1,10 @@
 #include <stdio.h>
 
+
 int main(){
-    int cost, enter;
+    int enter;
+    int cost = 0;
     int price[5] = {23,56,12,43,16};
-    cost = 0;
     
     printf("Enter:");
     scanf("%d",&enter);

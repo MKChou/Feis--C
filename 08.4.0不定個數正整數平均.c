@@ -16,4 +16,6 @@ int main(){
     average = (float)sum/count;
     printf("Total:%d\n",sum);
     printf("Average:%d",average);
+
+    return 0;
 }

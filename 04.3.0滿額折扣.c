@@ -10,4 +10,6 @@ int main(){
         cost = 0.8*cost;
     }
     printf("Pay:%d",cost);
+
+    return 0;
 }
