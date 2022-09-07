@@ -17,11 +17,5 @@ int main(){
         printf("%d: %d\n",i,number[i-1]);
     }
 
-
-
-
-
-
-
-
+    return 0;
 }

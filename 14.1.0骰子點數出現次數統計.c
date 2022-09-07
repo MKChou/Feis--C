@@ -47,4 +47,6 @@ int main (){
         }
     }
     printf("1:%d\n2:%d\n3:%d\n4:%d\n5:%d\n6:%d",a,b,c,d,e,f);
+
+    return 0;
 }

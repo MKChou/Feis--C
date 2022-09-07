@@ -41,4 +41,6 @@ int main(){
     return 0;
     }
     printf("1:%d\n2:%d\n3:%d\n4:%d\n5:%d\n6:%d",number[0],number[1],number[2],number[3],number[4],number[5]);
+
+    return 0;
 }
