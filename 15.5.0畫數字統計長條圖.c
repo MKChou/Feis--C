@@ -11,15 +11,17 @@ int main(){
     }
 
     
+
+
     for ( i=0; i<10; i++){
-        printf("%d0:",i);
+        printf("%d0~%d0:",i,i+1);
 
         for ( j=0; j<b[i]; j++){
             printf("*");
         }
-
+        
         printf("\n");
-
-        return 0;
     }
+
+    return 0;
 }
