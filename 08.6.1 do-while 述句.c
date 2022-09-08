@@ -7,7 +7,7 @@ int main(){
     do{
         printf("number:%d\n",count);
         count = count + 1;
-    } while (count <= 10);
+    } while (count <= 10);           //當框內條件達成時跳脫
 
     return 0 ; 
 }

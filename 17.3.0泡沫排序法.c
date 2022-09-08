@@ -24,5 +24,6 @@ int main(){
     for (j=0; j<5; j++){
         printf("%d ",number[j]);
     }
+    
     return 0;
 }
