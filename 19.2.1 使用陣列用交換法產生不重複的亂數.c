@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 int main(){
-    int i,j, n[10]={0};
+    int i,j,b, n[10]={0};
 
     for ( i=0; i<10; i++){                    //先產生不重複數列 1到10
         n[i] = i+1 ;
     }
-
-    for(j=0;j<10;j++){printf("%d ",n[j]);} printf("\n");
+for (b=0; b<5; b++){
+    //for(j=0;j<10;j++){printf("%d ",n[j]);} printf("\n");
 
     for ( i=0; i<10; i++){                                        
             int j = rand()%10 + 1;           // 產生 n[i]與n[j]交換，換完就下一個階段i換 
@@ -19,7 +19,6 @@ int main(){
     }
 
     for(j=0;j<10;j++){printf("%d ",n[j]);} printf("\n");
-
+}
     return 0;
-
     }
