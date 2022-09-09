@@ -16,7 +16,6 @@ int main(){
         counter[n-1]++;              // 出現i 把i 放進 counter[i]然後加1
     }
 
-
     printf("\n");
     return 0;
 }
