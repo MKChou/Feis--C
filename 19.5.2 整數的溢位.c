@@ -10,7 +10,7 @@ int main(){
 
     printf("%u\n", b);                                  //無號整數的溢位不是《未定義行為》
     printf("%u\n", c);                                  // 1000000000000 % (UNIT_MAX+1)
-    printf("%u\n", UINT_MAX);
-    
+    printf("%u\n", UINT_MAX);                           //「(UNIT_MAX+1)」:  餘數 = 0~UNIT_MAX
+
     return 0;
 }

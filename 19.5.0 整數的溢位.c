@@ -8,5 +8,6 @@ int main(){
     int c = a*a*a*a;
     printf("%d\n",b);
     printf("%d\n",c);     //溢位 
+    
     return 0;
 }

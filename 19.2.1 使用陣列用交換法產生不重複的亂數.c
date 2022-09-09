@@ -7,7 +7,7 @@ int main(){
     for ( i=0; i<10; i++){                    //先產生不重複數列 1到10
         n[i] = i+1 ;
     }
-for (b=0; b<5; b++){
+
     //for(j=0;j<10;j++){printf("%d ",n[j]);} printf("\n");
 
     for ( i=0; i<10; i++){                                        
@@ -19,6 +19,6 @@ for (b=0; b<5; b++){
     }
 
     for(j=0;j<10;j++){printf("%d ",n[j]);} printf("\n");
-}
+
     return 0;
     }

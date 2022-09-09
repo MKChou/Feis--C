@@ -2,7 +2,7 @@
 
 
 int count(void){
-    int k=0;
+    int k=0;        
     k++;
     return k;
 }
@@ -13,4 +13,5 @@ int main() {
         printf("%d\n",count());
     }
     
+    return 0;
 }
