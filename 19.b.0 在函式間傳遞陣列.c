@@ -23,4 +23,6 @@ int main(){
     }
 
     printf("\nMax:%d",max);
+
+    return 0;
 }

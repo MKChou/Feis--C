@@ -17,5 +17,6 @@ int max3(int v[3]){
             max = v[i];
         }
     }
+    
     return max;
 }

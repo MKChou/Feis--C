@@ -17,5 +17,6 @@ int max3(int a,int b,int c){
     if ( c > max ){
         max = c;
     }
+    
     return max;
 }
