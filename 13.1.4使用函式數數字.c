@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-void arrayMax(int);
+void countTo3(int);
 
 int main(){
-    arrayMax(3);
+    countTo3(3);
     return 0;
 }
 
-void arrayMax(int i){
+void countTo3(int i){
     if( i>=1 ){
         printf("%d\n",i);
         countTo3(i-1);

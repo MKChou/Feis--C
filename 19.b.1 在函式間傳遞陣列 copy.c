@@ -2,12 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 
+
 void arrayPrint(int v[10]){
     int i;
     for (i=0; i<10; i++){
         printf("%d ",v[i]);
     }
 }
+
 
 int arrayMax(int v[10]){
     int i;
@@ -20,8 +22,9 @@ int arrayMax(int v[10]){
     return max;
 }
 
+
 int main(){
-    srand(time(0));
+
     int v[10], i;
     for ( i=0; i<10; i++){
         v[i] = rand()%100;
@@ -29,8 +32,6 @@ int main(){
 
     arrayPrint(v);
     printf("\n");
-
-
 
     printf("Max: %d\n", arrayMax(v));
 
