@@ -11,3 +11,7 @@ int main(){
 
     strA = strB;    //(X)  char[] != char *
     strA = strC;    //(X)  char[] != const char*
+    strB = strA;    //(O)  char *  = char[]  >>>把一個字元陣列放進字元指標裡面
+    strB = strC;    //(X)  char * != const char* >>不能把一個不能修改的位置const放進可修改的位置 
+    strC = strA;    //(O)  const char* = char[] >>>把一個字元陣列隱性轉型成字元指標放進不可修改的指標中。
+    strC = strB;    //(O)  const char* = char*  >>> 把字元指標放進不可修改的字元指標中
