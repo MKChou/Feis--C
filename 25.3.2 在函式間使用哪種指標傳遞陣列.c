@@ -14,5 +14,6 @@ void print(int(*q)[3]){
 int main(){
     int v[] = {1,2,3};
     printf(&v);
+    
     return 0;
 }
